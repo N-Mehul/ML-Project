@@ -1,0 +1,86 @@
+/* Reset */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Background */
+body{
+    min-height:100vh;
+    background: linear-gradient(135deg,#667eea,#764ba2);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+/* Card */
+.card{
+    background:#fff;
+    width:350px;
+    padding:30px;
+    border-radius:12px;
+    box-shadow:0 8px 25px rgba(0,0,0,0.2);
+}
+
+/* Title */
+.card h2{
+    text-align:center;
+    margin-bottom:20px;
+    color:#333;
+}
+
+/* Inputs */
+.card input,
+.card select{
+    width:100%;
+    padding:10px;
+    margin:8px 0 15px;
+    border:1px solid #ccc;
+    border-radius:6px;
+    font-size:15px;
+}
+
+/* Button */
+.card button{
+    width:100%;
+    padding:10px;
+    background:#667eea;
+    border:none;
+    color:#fff;
+    font-size:16px;
+    border-radius:6px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.card button:hover{
+    background:#5a67d8;
+}
+
+/* Links */
+.card p{
+    text-align:center;
+    margin-top:15px;
+}
+
+.card a{
+    color:#667eea;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.card a:hover{
+    text-decoration:underline;
+}
+
+/* Error */
+.error{
+    background:#ffe0e0;
+    color:#b00020;
+    padding:8px;
+    border-radius:5px;
+    margin-bottom:10px;
+    text-align:center;
+}
